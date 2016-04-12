@@ -12,9 +12,10 @@
 */
 
 Route::get('/', function () {
-    return '';
+    return 'a';
 });
 
 Route::auth();
 
 Route::get('/home', 'HomeController@index');
+Route::get('/utilisateur', 'GameController@index');
