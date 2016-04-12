@@ -18,3 +18,8 @@ Route::get('/', function () {
 Route::auth();
 
 Route::get('/home', 'HomeController@index');
+
+
+//Route API
+
+Route::get('/api/me/name','ApiController@myName');
