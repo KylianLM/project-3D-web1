@@ -12,7 +12,7 @@
 */
 
 Route::get('/', function () {
-    return 'YOLO';
+    return '';
 });
 
 Route::auth();
