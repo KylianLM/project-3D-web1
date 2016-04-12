@@ -17,9 +17,15 @@ class CreateUsersTable extends Migration
             $table->string('name');
             $table->string('email')->unique();
             $table->string('password');
+            $table->integer('score');
             $table->rememberToken();
             $table->timestamps();
         });
+
+//        Schema::create('emails', function(Blueprint $table) {
+//            $table->increments('id');
+//            $table->string('email', 100);
+//        });
     }
 
     /**
