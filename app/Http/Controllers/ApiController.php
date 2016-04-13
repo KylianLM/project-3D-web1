@@ -13,7 +13,7 @@ class ApiController extends Controller
      * API Get infos from User
      * @return mixed
      */
-    public function myName()
+    public function me()
     {
         if (Auth::check())
         {

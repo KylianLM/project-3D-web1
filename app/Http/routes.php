@@ -18,9 +18,11 @@ Route::get('/', function () {
 Route::auth();
 
 Route::get('/home', 'HomeController@index');
-
+Route::get('/game', function(){
+    return view('game');
+});
 
 //Route API
 
-Route::get('/api/me','ApiController@myName');
+Route::get('/api/me','ApiController@me');
 Route::get('/api/me/image','ApiController@img');
