@@ -37,17 +37,3 @@ class UploadController extends Controller
 //        74381.png
     }
 }
-//        print_r($file);
-//        $rules = array('image' => 'required',);
-//        print_r($rules);
-//        $validator = Validator::make($file, $rules);
-//        if ($validator->fails()) {
-//            echo 'aaa';
-//        }
-//        else {
-//                if (Input::file('image')->isValid()) {
-//                    $destinationPath = 'uploads';
-//                    Input::file('image')->move($destinationPath, $fileName);
-//                }
-//            }
-//        }
