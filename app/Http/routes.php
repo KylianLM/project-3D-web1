@@ -12,12 +12,13 @@
 */
 
 Route::get('/', function () {
-    return '';
+    return 'a';
 });
 
 Route::auth();
 
 Route::get('/home', 'HomeController@index');
+<<<<<<< HEAD
 Route::get('/game', function(){
     return view('game');
 });
@@ -26,3 +27,8 @@ Route::get('/game', function(){
 
 Route::get('/api/me','ApiController@me');
 Route::get('/api/me/image','ApiController@img');
+=======
+Route::get('/leaderboard', 'GameController@index');
+Route::get('/upload', 'UploadController@index');
+Route::post('/upload', 'UploadController@upload');
+>>>>>>> dev
