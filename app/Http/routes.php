@@ -29,3 +29,5 @@ Route::post('/upload', 'UploadController@upload');
 
 Route::get('/api/me','ApiController@me');
 Route::get('/api/me/image','ApiController@img');
+
+Route::post('/api/score', 'ApiController@setScore');
