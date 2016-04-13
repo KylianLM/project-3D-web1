@@ -18,6 +18,26 @@ Route::get('/game', function(){
     return view('game');
 });
 
+Route::get('/thunderjet', function(){
+    return view('/histoire/thunderjet');
+});
+
+Route::get('/ouragan', function(){
+    return view('/histoire/ouragan');
+});
+
+Route::get('/misteriv', function(){
+    return view('/histoire/misteriv');
+});
+
+Route::get('/magister', function(){
+    return view('/histoire/magister');
+});
+
+Route::get('/alphajet', function(){
+    return view('/histoire/alphajet');
+});
+
 Route::auth();
 Route::get('/home', 'HomeController@index');
 Route::get('/leaderboard', 'GameController@index');
