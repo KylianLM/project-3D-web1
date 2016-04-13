@@ -10,7 +10,7 @@
 |
 */
 Route::get('/', function () {
-    return 'a';
+    return view('index');
 });
 
 

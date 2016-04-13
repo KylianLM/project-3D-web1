@@ -1,11 +1,12 @@
 @extends('layouts.app')
-
+@section('linkrel')
+    <link rel="stylesheet" type="text/css" href="{{asset('css/styleRegister.css')}}"/>
+@endsection
 @section('content')
 <div class="container">
     <div class="row">
         <div class="col-md-8 col-md-offset-2">
-            <div class="panel panel-default">
-                <div class="panel-heading">Register</div>
+            <div class="panel panel-default"><h1>Register</h1></div>
                 <div class="panel-body">
                     <form class="form-horizontal" role="form" method="POST" action="{{ url('/register') }}">
                         {!! csrf_field() !!}
