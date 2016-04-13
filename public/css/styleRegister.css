@@ -1,0 +1,193 @@
+body{
+    /*overflow: hidden;*/
+    background: url('../img/fd-connect-1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+/* Navigation */
+header{
+    position: relative;
+    z-index: 3;
+    /*height: 100vh;*/
+}
+
+.logo{
+    display: inline-block;
+    width: 70px;
+    margin-top: 10px;
+    margin-left: 15px;
+
+}
+
+.header{
+    display: inline-block;
+    position: absolute;
+    right: 0;
+    margin-top: 38px;
+    margin-right: 60px;
+    /*z-index: 4;*/
+}
+
+.headerNavigation{
+    padding:0;
+    margin:0;
+    list-style-type:none;
+}
+
+.headerNavigation li {
+    display: inline-block;
+    margin-right: 50px;
+}
+
+.headerNavigation li img{
+    width: 30px;
+}
+
+.avion img{
+    width: 30px;
+    margin-top: 25px;
+    margin-left: 171px;
+    display: none;
+}
+/* Seconde bloc */
+#secondBloc{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 2;
+    display: none;
+}
+
+#secondBloc ul{
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+#secondBloc li{
+    position: relative;
+    float: left;
+    width: 20%;
+    height: 0%;
+}
+
+.blocNoirOpacite{
+    height: 100%;
+    width: 50px;
+    background: black;
+}
+
+#secondBloc li img{
+    width: 100%;
+    height: 100%;
+}
+
+#secondBloc p{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: TranslateY(-50%) TranslateX(-50%);
+    font-size: 50px;
+    color: white;
+    font-family: "Gotham Rounded Light";
+    width: 258.8px;
+    text-align: center;
+}
+
+#secondBloc li p:first-child{
+    width: 297.2px;
+}
+
+/* modif login */
+@font-face{
+    font-family:"Gotham Rounded";
+    src:url(../fonts/GothamRoundedLight_21020.ttf);
+}
+
+.panel-heading h1{
+    text-align: center;
+    font-size: 35px;
+    font-family: "Gotham Rounded";
+    margin-bottom: 26px;
+}
+
+form{
+    margin: 0 auto;
+    width: 513px;
+    height: 670px;
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.5);
+    text-align: center;
+    padding: 35px;
+    box-sizing: border-box;
+}
+label{
+    color: #9da1a6;
+    font-size: 25px;
+    /*padding-top: 45px;*/
+    /*margin-bottom: 138px;*/
+    font-family: "Gotham Rounded";
+}
+
+p{
+    font-size: 22px;
+    margin-top: 60px;
+    color: #FFF;
+}
+a{
+    color: #255891;
+    text-decoration: none;
+}
+a:hover{
+    color: #0b407a;
+}
+input{
+    width: 383px;
+    height: 35px;
+    margin-bottom: 40px;
+    background-color: rgba(0, 0, 0, 0);
+    border-color: #fff;
+    border-radius: 7px;
+    font-size: 30px;
+    font-family:"Gotham Rounded";
+    border: 1px solid #9da1a6;
+    padding: 12px
+}
+button{
+    height: 55px;
+    width: 430px;
+    border-radius: 6px;
+    background-color: #0d539f;
+    font-family:"Gotham Rounded";
+    font-size: 30px;
+    border: transparent;
+    color: #FFF;
+    margin-bottom: 55px ;
+}
+button:hover{
+    background-color: #0b407a;
+}
+
+.rememberMe{
+    width: 16px;
+    position: relative;
+    top: 10px;
+    margin-bottom: 40px;
+    background-color: rgba(0, 0, 0, 0);
+    border-color: #fff;
+    border-radius: 7px;
+    font-size: 30px;
+    padding-left: 20px;
+    font-family:"Gotham Rounded";
+    border: 1px solid #9da1a6;
+}
+
+.panel h1{
+    text-align: center;
+    font-size: 35px;
+    font-family: "Gotham Rounded";
+    margin-bottom: 26px;
+}
