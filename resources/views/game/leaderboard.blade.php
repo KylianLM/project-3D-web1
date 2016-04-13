@@ -9,5 +9,9 @@
         '<li>' . $editeur->score . '</li><br/>';
   }
  ?>
+
+
  </ul>
+
 @endsection
+

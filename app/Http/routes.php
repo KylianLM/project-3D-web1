@@ -19,3 +19,5 @@ Route::auth();
 
 Route::get('/home', 'HomeController@index');
 Route::get('/leaderboard', 'GameController@index');
+Route::get('/upload', 'UploadController@index');
+Route::post('/upload', 'UploadController@upload');
