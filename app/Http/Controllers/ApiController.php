@@ -5,8 +5,11 @@ namespace App\Http\Controllers;
 use Illuminate\Http\Request;
 
 use App\Http\Requests;
+use Illuminate\Support\Facades\Input;
 use Symfony\Component\HttpFoundation\Response;
 use Illuminate\Support\Facades\Auth;
+use Illuminate\Support\Facades\DB;
+
 class ApiController extends Controller
 {
     /**
@@ -32,7 +35,11 @@ class ApiController extends Controller
     {
         if (Auth::check())
         {
-
+            $id = Auth::user()->id;
+            $score =  Input::get('score');
+            DB::table('users')
+                ->where('id', $id)
+                ->update(['score' => $score]);
         } else {
             return response('Unauthorized','401');
         }
