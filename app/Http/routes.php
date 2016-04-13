@@ -22,4 +22,5 @@ Route::get('/home', 'HomeController@index');
 
 //Route API
 
-Route::get('/api/me/name','ApiController@myName');
+Route::get('/api/me','ApiController@myName');
+Route::get('/api/me/image','ApiController@img');
