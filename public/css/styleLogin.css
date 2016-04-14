@@ -177,7 +177,7 @@ button{
     width: 220px;
     border-radius: 6px;
     background-color: #0d539f;
-    font-family:"Gotham Rounded";
+    font-family:"questrial";
     font-size: 20px;
     border: transparent;
     color: #FFF;
@@ -200,4 +200,25 @@ button:hover{
     color: white;
     font-family: 'questrial', Arial;
     margin-top: 40px;
+}
+
+.createCompteBloc{
+    height: 55px;
+    width: 220px;
+    border-radius: 6px;
+    background-color: #0d539f;
+    border: transparent;
+    display: block;
+    margin: auto;
+    text-decoration: none;
+    text-align: center;
+}
+
+.createCompte{
+    position: relative;
+    top: 17px;
+    text-decoration: none;
+    font-family:"questrial";
+    font-size: 20px;
+    color: #FFF;
 }
