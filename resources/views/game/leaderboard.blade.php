@@ -8,9 +8,8 @@
     <ul>
         <h1>Classement</h1>
         <?php
-        $editeurs = DB::table('users')->select('name', 'score')->orderBy('score', 'desc')->paginate(3);
+        $editeurs = DB::table('users')->select('name', 'score')->orderBy('score', 'desc')->paginate(5);
         foreach ($editeurs as $editeur) { ?>
-        <li><?= $editeur->name ?> <span><?= $editeur->score ?> points</span></li>
         <li><?= $editeur->name ?> <span><?= $editeur->score ?> points</span></li>
         <?php
         }
