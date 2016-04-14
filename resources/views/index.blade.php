@@ -9,10 +9,11 @@
             <!-- Inclusion de la vidéo -->
 @section('video')
     <div class="covervid-wrapper">
-        <video class="covervid-video" autoplay loop poster="">
+        <video muted class="covervid-video" autoplay loop poster="">
             <source src="{{asset("video/video.mp4")}}" type="video/mp4">
         </video>
     </div>
+    <div class="cover"></div>
     @endsection
 
             <!-- Inclusion du bouton découvrir -->

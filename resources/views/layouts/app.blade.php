@@ -28,7 +28,13 @@
                 <ul class="headerNavigation">
                     {{--<li><a href=""><img src="{{asset("icones/building.png")}}"></a></li>--}}
                     <li><a href="/game"><img src="{{asset("icones/multimedia.png")}}"></a></li>
-                    <li><a href="/register"><img src="{{asset("icones/social.png")}}"></a></li>
+                    @if (Auth::guest())
+                        <li><a href="{{ url('/login') }}" class="fa fa-sign-in"></a></li>
+                        <li><a href="{{ url('/register') }}" class="fa fa-user-plus"></a></li>
+                    @else
+                        <li><a href="/"><img src="{{asset("icones/social.png")}}"></a></li>
+                        <li><a href="{{ url('/logout') }}" class="fa fa-sign-out"></a></li>
+                    @endif
                     <li><a href="" class="avion"><img src="{{asset("icones/avion.png")}}"></a></li>
                 </ul>
             </nav>
