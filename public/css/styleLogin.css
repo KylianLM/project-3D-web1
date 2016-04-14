@@ -6,55 +6,57 @@ body{
     height: 100vh;
 }
 
-/* Seconde bloc */
-#secondBloc{
-    position: absolute;
-    top: 0;
-    width: 100%;
-    height: 100%;
-    z-index: 2;
-    display: none;
-}
+/*!* Seconde bloc *!*/
+/*#secondBloc{*/
+    /*position: absolute;*/
+    /*top: 0;*/
+    /*width: 100%;*/
+    /*height: 100%;*/
+    /*z-index: 2;*/
+    /*display: none;*/
+/*}*/
 
-#secondBloc ul{
-    width: 100%;
-    height: 100%;
-    position: relative;
-}
+/*#secondBloc ul{*/
+    /*width: 100%;*/
+    /*height: 100%;*/
+    /*position: relative;*/
+/*}*/
 
-#secondBloc li{
-    position: relative;
-    float: left;
-    width: 20%;
-    height: 0%;
-}
+/*#secondBloc li{*/
+    /*position: relative;*/
+    /*float: left;*/
+    /*width: 20%;*/
+    /*height: 0%;*/
+/*}*/
 
-.blocNoirOpacite{
-    height: 100%;
-    width: 50px;
-    background: black;
-}
+/*.blocNoirOpacite{*/
+    /*height: 100%;*/
+    /*width: 50px;*/
+    /*background: black;*/
+/*}*/
 
-#secondBloc li img{
-    width: 100%;
-    height: 100%;
-}
+/*#secondBloc li img{*/
+    /*width: 100%;*/
+    /*height: 100%;*/
+/*}*/
 
-#secondBloc p{
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: TranslateY(-50%) TranslateX(-50%);
-    font-size: 50px;
-    color: white;
-    font-family: "Gotham Rounded Light";
-    width: 258.8px;
-    text-align: center;
-}
+/*#secondBloc p{*/
+    /*position: absolute;*/
+    /*top: 50%;*/
+    /*left: 50%;*/
+    /*transform: TranslateY(-50%) TranslateX(-50%);*/
+    /*font-size: 50px;*/
+    /*color: white;*/
+    /*font-family: "Gotham Rounded Light";*/
+    /*width: 258.8px;*/
+    /*text-align: center;*/
+/*}*/
 
-#secondBloc li p:first-child{
-    width: 297.2px;
-}
+/*#secondBloc li p:first-child{*/
+    /*width: 297.2px;*/
+/*}*/
+
+
 
 /* modif login */
 @font-face{
@@ -62,11 +64,20 @@ body{
     src:url(../fonts/GothamRoundedLight_21020.ttf);
 }
 
-.panel-heading h1{
+.container h1{
     text-align: center;
     font-size: 35px;
-    font-family: "Gotham Rounded";
+    font-family: "montserrat_bold", Arial;
     margin-bottom: 26px;
+    color: #FFFFFF;
+}
+
+.container p{
+    text-align: center;
+    font-size: 16px;
+    font-family: "questrial", Arial;
+    margin-bottom: 26px;
+    color: #FFFFFF;
 }
 
 form{
@@ -90,12 +101,6 @@ label{
 .col-md-6{
     margin-top: 25px;
 }
-
-p{
-    font-size: 22px;
-    margin-top: 60px;
-    color: #FFF;
-}
 a{
     color: #255891;
     text-decoration: none;
@@ -109,10 +114,10 @@ input{
     margin-bottom: 40px;
     background-color: rgba(0, 0, 0, 0);
     border-color: #fff;
-    border-radius: 7px;
     font-size: 30px;
     font-family:"Gotham Rounded";
-    border: 1px solid #9da1a6;
+    border: none;
+    border-bottom: 1px solid #9da1a6;
     padding: 12px
 }
 button{

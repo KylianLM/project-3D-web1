@@ -5,6 +5,7 @@
 @section('content')
 <div class="container">
     <h1>Connexion</h1>
+    <p>Devenez un pilote à bord de votre avion</p>
     <div class="panel-body">
         <form class="form-horizontal" role="form" method="POST" action="{{ url('/login') }}">
             {!! csrf_field() !!}
