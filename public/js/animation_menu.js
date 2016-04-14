@@ -10,7 +10,7 @@ $(lienIconMenu).click(function(e){
         truc = true;
         setTimeout(function(){
             $(nav).animate({
-                width: "367px"
+                width: "450px"
             }, 500);
         }, 500);
 
