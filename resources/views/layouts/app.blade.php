@@ -21,14 +21,14 @@
         <header>
             <!-- Header & Navigation -->
             <div class="logo">
-                <a class="logo" href=""><img class="logo" src="{{asset("img/Logo.png")}}"></a>
+                <a class="logo" href="/"><img class="logo" src="{{asset("img/Logo.png")}}"></a>
             </div>
             <a href="" class="lienIconMenu"><img src="{{asset("icones/menu.png")}}" alt="menu" class="iconmenu"></a>
             <nav>
                 <ul class="headerNavigation">
-                    <li><a href=""><img src="{{asset("icones/building.png")}}"></a></li>
-                    <li><a href=""><img src="{{asset("icones/multimedia.png")}}"></a></li>
-                    <li><a href=""><img src="{{asset("icones/social.png")}}"></a></li>
+                    {{--<li><a href=""><img src="{{asset("icones/building.png")}}"></a></li>--}}
+                    <li><a href="/game"><img src="{{asset("icones/multimedia.png")}}"></a></li>
+                    <li><a href="/register"><img src="{{asset("icones/social.png")}}"></a></li>
                     <li><a href="" class="avion"><img src="{{asset("icones/avion.png")}}"></a></li>
                 </ul>
             </nav>

@@ -82,9 +82,9 @@ nav{
     height: 100px;
 }
 
-.headerNavigation li:last-child{
-    margin-right: 110px;
-}
+/*.headerNavigation li:last-child{*/
+    /*margin-right: px;*/
+/*}*/
 
 .headerNavigation li img{
     width: 30px;

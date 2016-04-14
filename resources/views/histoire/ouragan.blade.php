@@ -17,8 +17,7 @@
                 L'ouragan mesure 10,74m de long et 4,14m de hauteur<br/> avec un turboréacteur Rolls Royce Nene MK104B et
                 une<br/> puissance totale de 1 * 2270 Kgp. Il comporte aussi<br/> quatre canons de 20 mm et 908 kg de bombes.
             </p>
-            <img src="{{asset('icones/cadre_jouer.png')}}" alt="cadre_jouer" class="cadre_jouer">
-            <a href="">jouer</a>
+            <button class="btn-jouer">Jouer</button>
         </div>
     </div>
 @endsection
