@@ -8,6 +8,15 @@
 }
 
 @font-face {
+    font-family: 'montserrat_bold';
+    src: url('../fonts/montserat_bold/montserrat-bold-webfont.eot');
+    src: url('../fonts/montserat_bold/montserrat-bold-webfont.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/montserat_bold/montserrat-bold-webfont.woff') format('woff'),
+    url('../fonts/montserat_bold/montserrat-bold-webfont.ttf') format('truetype'),
+    url('../fonts/montserat_bold/montserrat-bold-webfont.svg#montserrat_bold') format('svg');
+}
+
+@font-face {
     font-family: 'questrial';
     src: url('../fonts/questrial/questrial-regular-webfont.eot');
     src: url('../fonts/questrial/questrial-regular-webfont.eot?#iefix') format('embedded-opentype'),
@@ -28,7 +37,7 @@
 @font-face {
     font-family: 'raleway_medium';
     src: url('../fonts/raleway_medium/raleway-medium-webfont.eot');
-    src: url('fonts/raleway_medium/raleway-medium-webfont.eot?#iefix') format('embedded-opentype'),
+    src: url('../fonts/raleway_medium/raleway-medium-webfont.eot?#iefix') format('embedded-opentype'),
     url('../fonts/raleway_medium/raleway-medium-webfont.woff') format('woff'),
     url('../fonts/raleway_medium/raleway-medium-webfont.ttf') format('truetype'),
     url('../fonts/raleway_medium/raleway-medium-webfont.svg#raleway_medium') format('svg');
