@@ -18,6 +18,10 @@ Route::get('/game', function(){
     return view('game');
 });
 
+Route::get('/profil', function(){
+    return view('profil');
+});
+
 Route::get('/thunderjet', function(){
     return view('/histoire/thunderjet');
 });

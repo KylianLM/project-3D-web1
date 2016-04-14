@@ -46,6 +46,8 @@
         {{--Page des Avions--}}
         @yield('pageAvions')
 
+        {{--Page du profil--}}
+        @yield(('pageProfil'))
 
         <!-- JavaScripts -->
         <script src="{{asset("js/jquery-1.12.3.min.js")}}"></script>
