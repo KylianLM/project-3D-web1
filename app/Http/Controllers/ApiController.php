@@ -37,9 +37,12 @@ class ApiController extends Controller
         {
             $id = Auth::user()->id;
             $score =  Input::get('score');
-            DB::table('users')
-                ->where('id', $id)
-                ->update(['score' => $score]);
+            $dbScore = Auth::user()->score;
+            if($dbScore < $score) {
+                DB::table('users')
+                    ->where('id', $id)
+                    ->update(['score' => $score]);
+            }
         } else {
             return response('Unauthorized','401');
         }

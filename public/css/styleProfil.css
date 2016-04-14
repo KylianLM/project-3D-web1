@@ -11,7 +11,6 @@ body{
     margin-top: 112px;
     display: inline-block;
     /*width: 573px;*/
-    margin-left: 113px;
 }
 
 .imageProfil {
@@ -24,41 +23,50 @@ body{
 
 .pseudo{
     font-size: 100px;
-    color: #000000;
+    color: #fff;
     font-family: "montserat_ultra_light";
     font-weight: bold;
 }
 
 .nomPrenom{
     font-size: 30px;
-    color: #000000;
+    color: #fff;
     font-family: "questrial", Arial;
     margin-top: 20px;
 }
 
 .email{
     font-size: 30px;
-    color: #000000;
+    color: #fff;
     padding-bottom: 19px;
     /* margin-bottom: 19px; */
     margin-top: 20px;
-    border-bottom: 5px solid black;
+    border-bottom: 5px solid white;
     font-family: "questrial", Arial;
 }
 
 .highScore{
     font-size: 30px;
     margin-top: 21px;
-    color: #000000;
+    color: #fff;
     font-family: "questrial", Arial;
 }
-
+.wrap {
+    display: flex;
+    width: 100vw;
+    justify-content: space-between;
+    align-items: center;
+}
 #desc{
     display: inline-block;
     vertical-align: top;
     margin-left: 38px;
 }
 
+a {
+    color: #fff;
+    font-family: "Gotham Light";
+}
 #profilDescription{
     display: block;
     width: 573px;
@@ -69,9 +77,7 @@ body{
 
 #sucess{
     display: inline-block;
-    margin-left: 110px;
     vertical-align: top;
-    margin-top: 112px;
 }
 
 #badge{
@@ -108,4 +114,8 @@ body{
     width: 50px;
     display: inline-block;
     margin-top: 15px;
+}
+
+p {
+    color: #fff;
 }
