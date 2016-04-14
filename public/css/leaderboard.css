@@ -1,0 +1,33 @@
+body {
+    background: #2f455a;
+    font-family: gotham light;
+}
+
+ul {
+    height: calc(100vh - 117px);
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+li {
+    color: #2f455a;
+    box-sizing: border-box;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 5px;
+    background-color: #fff;
+    width: 400px;
+    height: 80px;
+    margin-bottom: 40px;
+}
+
+h1 {
+    color: #fff;
+    font-size: 24px;
+    margin-bottom: 40px;
+}
