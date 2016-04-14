@@ -45,7 +45,9 @@
         <div id="redirectionInscription">
             <div id="centrage_contenu">
                 <p>Vous n'avez pas de compte ?</p>
-                <button>Créer un compte</button>
+                <div class="createCompteBloc">
+                    <a href="" class="createCompte">Créer un compte</a>
+                </div>
             </div>
         </div>
     </div>
