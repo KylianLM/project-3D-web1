@@ -68,12 +68,13 @@
                 u.getUnity().SendMessage("Autocollant", "SetTexture", link)
             }
 
-            setTexture('http://localhost:8000/uploads/logo.png');
 
             $.ajax({
                 url: "http://localhost:8000/api/me"
             }).then(function (data) {
                 setName(data.me.name);
+                var link = 'http://localhost:8000/uploads/'+data.me.img;
+                setTexture(link);
             });
 
         });
