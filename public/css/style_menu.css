@@ -54,7 +54,21 @@ header{
     top: 48px;
     z-index: 9;
 }
-
+.cover {
+    position: absolute;
+    top:0;
+    left: 0;
+    z-index: 99;
+    background: linear-gradient(0deg,rgba(0,0,0,.1),rgba(0,0,0,.5));
+    width: 100vw;
+    height: 100vh;
+    pointer-events:none;
+}
+.fa {
+    color: #fff;
+    text-decoration: none;
+    font-size: 30px;
+}
 nav{
     /*display: none;*/
     position: absolute;
