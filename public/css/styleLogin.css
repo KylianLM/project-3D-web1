@@ -64,6 +64,10 @@ body{
     src:url(../fonts/GothamRoundedLight_21020.ttf);
 }
 
+.container{
+    width: 62%;
+    margin: auto;}
+
 .container h1{
     text-align: center;
     font-size: 35px;
@@ -80,16 +84,30 @@ body{
     color: #FFFFFF;
 }
 
-form{
+#centrage_bloc{
+    margin: auto;
+    width: 100%;
+}
+
+.panel-body{
+    display: inline-block;
     margin: 0 auto;
-    width: 513px;
+    width: 50%;
     height: 670px;
-    border-radius: 10px;
     background-color: rgba(0, 0, 0, 0.5);
     text-align: center;
     padding: 35px;
     box-sizing: border-box;
+    position: relative;
 }
+
+.form-horizontal{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: TranslateY(-50%) TranslateX(-50%);
+}
+
 label{
     color: #9da1a6;
     font-size: 25px;
@@ -98,16 +116,6 @@ label{
     font-family: "Gotham Rounded";
 }
 
-.col-md-6{
-    margin-top: 25px;
-}
-a{
-    color: #255891;
-    text-decoration: none;
-}
-a:hover{
-    color: #0b407a;
-}
 input{
     width: 383px;
     height: 35px;
@@ -120,19 +128,23 @@ input{
     border-bottom: 1px solid #9da1a6;
     padding: 12px
 }
-button{
-    height: 55px;
-    width: 430px;
-    border-radius: 6px;
-    background-color: #0d539f;
-    font-family:"Gotham Rounded";
-    font-size: 30px;
-    border: transparent;
-    color: #FFF;
-    margin-bottom: 55px ;
+
+#redirectionInscription{
+    display: inline-block;
+    border-collapse: collapse;
+    vertical-align: top;
+    height: 670px;
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 49%;
+    position: relative;
 }
-button:hover{
-    background-color: #0b407a;
+
+
+#centrage_contenu{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: TranslateY(-50%) TranslateX(-50%);
 }
 
 .rememberMe{
@@ -145,6 +157,29 @@ button:hover{
     border-radius: 7px;
     font-size: 30px;
     padding-left: 20px;
-    font-family:"Gotham Rounded";
+    font-family:"questrial", Arial;
     border: 1px solid #9da1a6;
+}
+
+button{
+    height: 55px;
+    width: 430px;
+    border-radius: 6px;
+    background-color: #0d539f;
+    font-family:"Gotham Rounded";
+    font-size: 30px;
+    border: transparent;
+    color: #FFF;
+    margin-bottom: 55px ;
+}
+
+button:hover{
+    background-color: #0b407a;
+}
+
+.btn-link{
+    display: block;
+    text-decoration: none;
+    color: white;
+    font-family: 'questrial', Arial;
 }
