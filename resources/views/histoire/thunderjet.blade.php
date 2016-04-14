@@ -17,8 +17,7 @@
                 Le Thunderjet mesure 10,60m de long et 3,83m de<br/> hauteur avec un turboréacteur Allison J35-A-29 et une<br/> puissance
                 totale de 1 * 2 540 Kgp.
             </p>
-            <img src="{{asset('icones/cadre_jouer.png')}}" alt="cadre_jouer" class="cadre_jouer">
-            <a href="">jouer</a>
+            <button class="btn-jouer">Jouer</button>
         </div>
     </div>
 @endsection
