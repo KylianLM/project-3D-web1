@@ -13,7 +13,9 @@ Route::get('/', function () {
     return view('index');
 });
 
-
+Route::get('/leaderboard', function() {
+    return view('game.learderboard');
+});
 
 Route::get('/game', 'GameController@game');
 Route::get('/game1', 'GameController@game1');
