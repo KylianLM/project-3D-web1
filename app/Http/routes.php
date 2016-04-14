@@ -14,9 +14,15 @@ Route::get('/', function () {
 });
 
 
-Route::get('/game', function(){
-    return view('game');
-});
+
+Route::get('/game', 'GameController@game');
+Route::get('/game1', 'GameController@game1');
+Route::get('/game2', 'GameController@game2');
+Route::get('/game3', 'GameController@game3');
+Route::get('/game4', 'GameController@game4');
+Route::get('/game5', 'GameController@game5');
+
+
 
 Route::get('/profil', function(){
     return view('profil');
