@@ -21,7 +21,7 @@
                 une puissance totale de 2 * 400 Kgp. Il comporte aussi<br/>
                 deux mitrailleuse, deux bombes et quatre roquettes.
             </p>
-            <button class="btn-jouer">Jouer</button>
+            <a href="/game4"><button class="btn-jouer">Jouer</button></a>
         </div>
     </div>
 @endsection

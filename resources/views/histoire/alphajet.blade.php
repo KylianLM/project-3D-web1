@@ -22,7 +22,7 @@
                 avec deux turboréacteurs SNECMA-Turboméca Larzac<br/>
                 04-G5 et une puissance totale de 2 * 1350 Kgp.
             </p>
-            <button class="btn-jouer">Jouer</button>
+            <a href="/game5"><button class="btn-jouer">Jouer</button></a>
         </div>
     </div>
 @endsection
