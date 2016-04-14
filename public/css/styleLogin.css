@@ -59,10 +59,6 @@ body{
 
 
 /* modif login */
-@font-face{
-    font-family:"Gotham Rounded";
-    src:url(../fonts/GothamRoundedLight_21020.ttf);
-}
 
 .container{
     width: 62%;
@@ -125,11 +121,12 @@ input{
     margin-bottom: 40px;
     background-color: rgba(0, 0, 0, 0);
     border-color: #fff;
-    font-size: 30px;
+    font-size: 15px;
     font-family:"Gotham Rounded";
     border: none;
     border-bottom: 1px solid #9da1a6;
-    padding: 12px
+    padding: 12px;
+    color: #FFFFFF;
 }
 
 input:focus{
