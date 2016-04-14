@@ -20,6 +20,7 @@ class CreateUsersTable extends Migration
             $table->integer('score');
             $table->rememberToken();
             $table->timestamps();
+            $table->string('img');
         });
     }
 

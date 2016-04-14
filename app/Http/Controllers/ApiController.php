@@ -23,7 +23,7 @@ class ApiController extends Controller
             $name = Auth::user();
             return response()->json(['me' => $name]);
         } else {
-            return response()->json(['me' => 'PAF']);
+            return response()->json(['me' => '{"me":{"id":1,"name":"PAF","email":"kylian.le.mette@gmail.com","score":600,"created_at":"2016-04-13 16:26:18","updated_at":"2016-04-14 10:10:50"}}']);
         }
     }
 

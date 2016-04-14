@@ -19,7 +19,7 @@
                 hauteur avec 1 turboréacteur Hispano-Suiza Verdon 350<br/>
                 et une puissance totale de 1 * 3 500 Kgp.
             </p>
-            <button class="btn-jouer">Jouer</button>
+            <a href="/game3"><button class="btn-jouer">Jouer</button></a>
         </div>
     </div>
 @endsection
