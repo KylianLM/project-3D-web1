@@ -1,0 +1,111 @@
+body{
+    background: #2f455a;
+}
+
+#contentprofil{
+    margin: auto;
+    width: 83.1%;
+}
+
+#profil{
+    margin-top: 112px;
+    display: inline-block;
+    /*width: 573px;*/
+    margin-left: 113px;
+}
+
+.imageProfil {
+    border-radius: 50%;
+    background: url('../uploads/13294.jpg');
+    width: 207px;
+    height: 207px;
+    display: inline-block;
+}
+
+.pseudo{
+    font-size: 100px;
+    color: #000000;
+    font-family: "montserat_ultra_light";
+    font-weight: bold;
+}
+
+.nomPrenom{
+    font-size: 30px;
+    color: #000000;
+    font-family: "questrial", Arial;
+    margin-top: 20px;
+}
+
+.email{
+    font-size: 30px;
+    color: #000000;
+    padding-bottom: 19px;
+    /* margin-bottom: 19px; */
+    margin-top: 20px;
+    border-bottom: 5px solid black;
+    font-family: "questrial", Arial;
+}
+
+.highScore{
+    font-size: 30px;
+    margin-top: 21px;
+    color: #000000;
+    font-family: "questrial", Arial;
+}
+
+#desc{
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 38px;
+}
+
+#profilDescription{
+    display: block;
+    width: 573px;
+    margin-top: 50px;
+    text-align: justify;
+    line-height: 24px;
+}
+
+#sucess{
+    display: inline-block;
+    margin-left: 110px;
+    vertical-align: top;
+    margin-top: 112px;
+}
+
+#badge{
+    width: 61.8%;
+    height: 28.6%;
+    background: #000000;
+    padding: 50px;
+}
+
+#badge ul li{
+    display: inline-block;
+    margin: 20px;
+}
+
+#progression{
+    position: relative;
+    width: 447px;
+}
+
+.bare_progress{
+    display: block;
+    margin-top: 20px;
+}
+
+.niveau{
+    width: 50px;
+    display: inline-block;
+    position: absolute;
+    right: 0;
+    margin-top: 15px;
+}
+
+.pourcentage{
+    width: 50px;
+    display: inline-block;
+    margin-top: 15px;
+}
