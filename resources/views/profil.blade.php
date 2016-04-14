@@ -4,7 +4,7 @@
     <link rel="stylesheet" type="text/css" href="{{asset('css/styleProfil.css')}}"/>
 @endsection
 
-@section('pageProfil')
+@section('leader')
     <div id="contentprofil">
         <div id="profil">
             <div id="profilIdentite">
