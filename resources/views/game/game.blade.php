@@ -176,11 +176,21 @@
     function setName(name) {
         u.getUnity().SendMessage("Pseudo", "setName", name)
     }
-    $.ajax({
-        url: "http://localhost:8000/api/me"
-    }).then(function (data) {
-        setName(data.me.name);
-    });
+    function setTexture(link) {
+        u.getUnity().SendMessage("Autocollant", "SetTexture", link)
+    }
+    $('#unityPlayer').click(function () {
+        setTimeout(function() {
+            $.ajax({
+                url: "http://localhost:8000/api/me"
+            }).then(function (data) {
+                setName(data.me.name);
+                var link = 'http://localhost:8000/uploads/'+data.me.img;
+                setTexture(link);
+            });
+        },2000);
+    })
+
 
     function sendScore(score) {
         $.ajax({

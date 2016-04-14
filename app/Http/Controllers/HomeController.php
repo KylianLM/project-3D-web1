@@ -4,6 +4,8 @@ namespace App\Http\Controllers;
 
 use App\Http\Requests;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\DB;
+use Illuminate\Support\Facades\Auth;
 
 class HomeController extends Controller
 {
@@ -25,5 +27,14 @@ class HomeController extends Controller
     public function index()
     {
         return view('home');
+    }
+    
+    public function profil()
+    {
+        $id = Auth::user()->id;
+        $data = DB::table('users')
+            ->where('id',$id)
+            ->get();
+        return view('profil')->with('data', current($data));
     }
 }

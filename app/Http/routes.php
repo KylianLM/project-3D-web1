@@ -26,9 +26,7 @@ Route::get('/game5', 'GameController@game5');
 
 
 
-Route::get('/profil', function(){
-    return view('profil');
-});
+Route::get('/profil','HomeController@profil');
 
 Route::get('/thunderjet', function(){
     return view('/histoire/thunderjet');

@@ -24,32 +24,32 @@ body{
 
 .pseudo{
     font-size: 100px;
-    color: #000000;
+    color: #fff;
     font-family: "montserat_ultra_light";
     font-weight: bold;
 }
 
 .nomPrenom{
     font-size: 30px;
-    color: #000000;
+    color: #fff;
     font-family: "questrial", Arial;
     margin-top: 20px;
 }
 
 .email{
     font-size: 30px;
-    color: #000000;
+    color: #fff;
     padding-bottom: 19px;
     /* margin-bottom: 19px; */
     margin-top: 20px;
-    border-bottom: 5px solid black;
+    border-bottom: 5px solid white;
     font-family: "questrial", Arial;
 }
 
 .highScore{
     font-size: 30px;
     margin-top: 21px;
-    color: #000000;
+    color: #fff;
     font-family: "questrial", Arial;
 }
 
@@ -108,4 +108,8 @@ body{
     width: 50px;
     display: inline-block;
     margin-top: 15px;
+}
+
+p {
+    color: #fff;
 }

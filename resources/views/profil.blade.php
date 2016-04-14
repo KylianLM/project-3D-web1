@@ -9,12 +9,16 @@
         <div id="profil">
             <div id="profilIdentite">
                 <div class="imageProfil"></div>
+                <img src="/uploads/<?= $data->img ?>" alt="">
+                {{ Form::open(array('url'=>'upload  ','files'=>true)) }}
+                {!! Form::file('image') !!}
+                {!! Form::submit('Submit', array('class'=>'send-btn')) !!}
+                {!! Form::close() !!}
                 <div id="desc">
-                    <p class="pseudo">toto 582</p>
-                    <p class="nomPrenom">Toto Tata</p>
-                    <p class="email">tata[at]gmail.com</p>
+                    <p class="pseudo"><?= $data->name ?></p>
+                    <p class="email"><?= $data->email ?></p>
                     <img src="" alt="">
-                    <p class="highScore">High score : <span>500 points</span></p>
+                    <p class="highScore">High score : <span><?= $data->score ?></span></p>
                 </div>
             </div>
             <div id="profilDescription">
