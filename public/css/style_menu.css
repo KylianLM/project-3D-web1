@@ -1,0 +1,91 @@
+@font-face {
+    font-family: 'montserat_ultra_light';
+    src: url('../fonts/montserat/montserrat-ultralight-webfont.eot');
+    src: url('../fonts/montserat/montserrat-ultralight-webfont.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/montserat/montserrat-ultralight-webfont.woff') format('woff'),
+    url('../fonts/montserat/montserrat-ultralight-webfont.ttf') format('truetype'),
+    url('../fonts/montserat/montserrat-ultralight-webfont.svg#montserat_ultra_light') format('svg');
+}
+
+@font-face {
+    font-family: 'questrial';
+    src: url('../fonts/questrial/questrial-regular-webfont.eot');
+    src: url('../fonts/questrial/questrial-regular-webfont.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/questrial/questrial-regular-webfont.woff') format('woff'),
+    url('../fonts/questrial/questrial-regular-webfont.ttf') format('truetype'),
+    url('../fonts/questrial/questrial-regular-webfont.svg#questrial') format('svg');
+}
+
+@font-face {
+    font-family: 'raleway';
+    src: url('../fonts/raleway/raleway-bold-webfont.eot');
+    src: url('../fonts/raleway/raleway-bold-webfont.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/raleway/raleway-bold-webfont.woff') format('woff'),
+    url('../fonts/raleway/raleway-bold-webfont.ttf') format('truetype'),
+    url('../fonts/raleway/raleway-bold-webfont.svg#raleway') format('svg');
+}
+
+@font-face {
+    font-family: 'raleway_medium';
+    src: url('../fonts/raleway_medium/raleway-medium-webfont.eot');
+    src: url('fonts/raleway_medium/raleway-medium-webfont.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/raleway_medium/raleway-medium-webfont.woff') format('woff'),
+    url('../fonts/raleway_medium/raleway-medium-webfont.ttf') format('truetype'),
+    url('../fonts/raleway_medium/raleway-medium-webfont.svg#raleway_medium') format('svg');
+}
+
+/* Navigation */
+header{
+    position: relative;
+    z-index: 3;
+    /*height: 100vh;*/
+}
+
+.logo{
+    display: inline-block;
+    width: 70px;
+    margin-top: 10px;
+    margin-left: 15px;
+}
+
+.lienIconMenu{
+    position: absolute;
+    right: 55px;
+    top: 48px;
+    z-index: 9;
+}
+
+nav{
+    /*display: none;*/
+    position: absolute;
+    right: 0;
+    top: 0;
+    margin-top: 20px;
+    background: #4073a4;
+    width: 0;
+    height: 98px;
+}
+
+.headerNavigation{
+    display: none;
+    padding: 32px;
+    margin:0;
+    list-style-type:none;
+}
+
+.headerNavigation li {
+    display: inline-block;
+    margin-right: 50px;
+}
+
+.headerNavigation li a{
+    height: 100px;
+}
+
+.headerNavigation li:last-child{
+    margin-right: 110px;
+}
+
+.headerNavigation li img{
+    width: 30px;
+}

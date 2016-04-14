@@ -14,6 +14,7 @@
         <!-- Styles -->
         {{--<link href="xhttps://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet">--}}
         <link rel="stylesheet" href="{{asset('css/reset.css')}}"/>
+        <link rel="stylesheet" href="{{asset('css/style_menu.css')}}">
         @yield('linkrel')
     </head>
     <body id="app-layout">
@@ -22,13 +23,14 @@
             <div class="logo">
                 <a class="logo" href=""><img class="logo" src="{{asset("img/Logo.png")}}"></a>
             </div>
-            <nav class="header">
+            <a href="" class="lienIconMenu"><img src="{{asset("icones/menu.png")}}" alt="menu" class="iconmenu"></a>
+            <nav>
                 <ul class="headerNavigation">
-                    <li class="histoire"><a href=""><img src="{{asset("icones/building.png")}}"></a></li>
-                    <li class="game"><a href=""><img src="{{asset("icones/multimedia.png")}}"></a></li>
-                    <li class="profil"><a href=""><img src="{{asset("icones/social.png")}}"></a></li>
+                    <li><a href=""><img src="{{asset("icones/building.png")}}"></a></li>
+                    <li><a href=""><img src="{{asset("icones/multimedia.png")}}"></a></li>
+                    <li><a href=""><img src="{{asset("icones/social.png")}}"></a></li>
+                    <li><a href="" class="avion"><img src="{{asset("icones/avion.png")}}"></a></li>
                 </ul>
-                <a href="" class="avion"><img src="{{asset("icones/avion.png")}}"></a>
             </nav>
         </header>
         {{--Première section--}}
@@ -41,9 +43,13 @@
         @yield('secondBloc')
         @yield('content')
 
+        {{--Page des Avions--}}
+        @yield('pageAvions')
+
 
         <!-- JavaScripts -->
         <script src="{{asset("js/jquery-1.12.3.min.js")}}"></script>
+        <script src="{{asset("js/animation_menu.js")}}"></script>
         @yield('script')
         {{--<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>--}}
         {{-- <script src="{{ elixir('js/app.js') }}"></script> --}}
