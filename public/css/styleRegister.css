@@ -1,148 +1,108 @@
 body{
     /*overflow: hidden;*/
-    background: url('../img/fd-connect-1.jpg');
+    background: #2f455a;
     background-repeat: no-repeat;
     background-size: cover;
     height: 100vh;
 }
 
-/* Seconde bloc */
-#secondBloc{
-    position: absolute;
-    top: 0;
-    width: 100%;
-    height: 100%;
-    z-index: 2;
-    display: none;
-}
+/* modif login */
 
-#secondBloc ul{
-    width: 100%;
-    height: 100%;
-    position: relative;
-}
-
-#secondBloc li{
-    position: relative;
-    float: left;
-    width: 20%;
-    height: 0%;
-}
-
-.blocNoirOpacite{
-    height: 100%;
-    width: 50px;
-    background: black;
-}
-
-#secondBloc li img{
-    width: 100%;
-    height: 100%;
-}
-
-#secondBloc p{
+.container{
+    width: 62%;
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: TranslateY(-50%) TranslateX(-50%);
-    font-size: 50px;
-    color: white;
-    font-family: "Gotham Rounded Light";
-    width: 258.8px;
-    text-align: center;
-}
+    transform: TranslateY(-50%) TranslateX(-50%);}
 
-#secondBloc li p:first-child{
-    width: 297.2px;
-}
-
-/* modif login */
-@font-face{
-    font-family:"Gotham Rounded";
-    src:url(../fonts/GothamRoundedLight_21020.ttf);
-}
-
-.panel-heading h1{
+.container h1{
     text-align: center;
     font-size: 35px;
-    font-family: "Gotham Rounded";
-    margin-bottom: 26px;
+    font-family: "montserrat_bold", Arial;
+    margin-bottom: 60px;
+    color: #FFFFFF;
 }
 
-form{
-    margin: 0 auto;
-    width: 513px;
+#centrage_bloc{
+    margin: auto;
+    width: 100%;
+}
+
+.perso_pilote{
+    display: inline-block;
+    vertical-align: top;
     height: 670px;
-    border-radius: 10px;
+    background: url('../img/perso_pilote.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 49%;
+    position: relative;
+}
+
+.panel-body{
+    display: inline-block;
+    margin: 0 auto;
+    width: 50%;
+    height: 670px;
     background-color: rgba(0, 0, 0, 0.5);
     text-align: center;
     padding: 35px;
     box-sizing: border-box;
+    position: relative;
 }
+
+.form-horizontal{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: TranslateY(-50%) TranslateX(-50%);
+}
+
 label{
     color: #9da1a6;
-    font-size: 25px;
+    font-size: 20px;
     /*padding-top: 45px;*/
     /*margin-bottom: 138px;*/
     font-family: "Gotham Rounded";
 }
 
-p{
-    font-size: 22px;
-    margin-top: 60px;
-    color: #FFF;
-}
-a{
-    color: #255891;
-    text-decoration: none;
-}
-a:hover{
-    color: #0b407a;
-}
 input{
     width: 383px;
     height: 35px;
     margin-bottom: 40px;
     background-color: rgba(0, 0, 0, 0);
     border-color: #fff;
-    border-radius: 7px;
-    font-size: 30px;
+    font-size: 15px;
     font-family:"Gotham Rounded";
-    border: 1px solid #9da1a6;
-    padding: 12px
+    border: none;
+    border-bottom: 1px solid #9da1a6;
+    padding: 12px;
+    color: #FFFFFF;
 }
+
+input:focus{
+    border: none;
+}
+
 button{
     height: 55px;
-    width: 430px;
+    width: 220px;
     border-radius: 6px;
     background-color: #0d539f;
-    font-family:"Gotham Rounded";
-    font-size: 30px;
+    font-family:"questrial";
+    font-size: 20px;
     border: transparent;
     color: #FFF;
-    margin-bottom: 55px ;
+    margin-bottom: 55px;
+    display: block;
+    margin: auto;
 }
+
+.fa{
+    margin-right: 9px;
+}
+
 button:hover{
     background-color: #0b407a;
 }
 
-.rememberMe{
-    width: 16px;
-    position: relative;
-    top: 10px;
-    margin-bottom: 40px;
-    background-color: rgba(0, 0, 0, 0);
-    border-color: #fff;
-    border-radius: 7px;
-    font-size: 30px;
-    padding-left: 20px;
-    font-family:"Gotham Rounded";
-    border: 1px solid #9da1a6;
-}
-
-.panel h1{
-    text-align: center;
-    font-size: 35px;
-    font-family: "Gotham Rounded";
-    margin-bottom: 26px;
-}
