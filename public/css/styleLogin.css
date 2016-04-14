@@ -113,7 +113,7 @@ body{
 
 label{
     color: #9da1a6;
-    font-size: 25px;
+    font-size: 20px;
     /*padding-top: 45px;*/
     /*margin-bottom: 138px;*/
     font-family: "Gotham Rounded";
@@ -132,6 +132,10 @@ input{
     padding: 12px
 }
 
+input:focus{
+    border: none;
+}
+
 #redirectionInscription{
     display: inline-block;
     border-collapse: collapse;
@@ -148,6 +152,10 @@ input{
     top: 50%;
     left: 50%;
     transform: TranslateY(-50%) TranslateX(-50%);
+}
+
+.rememberMetext{
+    font-size: 15px;
 }
 
 .rememberMe{
@@ -173,7 +181,9 @@ button{
     font-size: 20px;
     border: transparent;
     color: #FFF;
-    margin-bottom: 55px ;
+    margin-bottom: 55px;
+    display: block;
+    margin: auto;
 }
 
 .fa{
@@ -189,4 +199,5 @@ button:hover{
     text-decoration: none;
     color: white;
     font-family: 'questrial', Arial;
+    margin-top: 40px;
 }

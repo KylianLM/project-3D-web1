@@ -12,7 +12,7 @@
                 {!! csrf_field() !!}
 
                 <div class="form-group{{ $errors->has('email') ? ' has-error' : '' }}">
-                    <label class="col-md-4 control-label">E-Mail Address</label>
+                    <label class="col-md-4 control-label">E-Mail</label>
                     <input type="email" class="form-control" name="email" value="{{ old('email') }}">
                         @if ($errors->has('email'))
                             <span class="help-block">
@@ -21,7 +21,7 @@
                         @endif
                 </div>
                 <div class="form-group{{ $errors->has('password') ? ' has-error' : '' }}">
-                    <label class="col-md-4 control-label">Password</label>
+                    <label class="col-md-4 control-label">Mot de passe</label>
                     <input type="password" class="form-control" name="password">
 
                     @if ($errors->has('password'))
@@ -31,7 +31,7 @@
                     @endif
                 </div>
 
-                <label>
+                <label class="rememberMetext">
                     <input type="checkbox" name="remember" class="rememberMe"> Remember Me
                 </label>
 
@@ -39,12 +39,12 @@
                     <i class="fa fa-btn fa-sign-in"></i>Login
                 </button>
 
-                <a class="btn btn-link" href="{{ url('/password/reset') }}">Forgot Your Password?</a>
+                <a class="btn btn-link" href="{{ url('/password/reset') }}">Mot de passe oublié ?</a>
             </form>
         </div>
         <div id="redirectionInscription">
             <div id="centrage_contenu">
-                <p>Vous n'avez pas de compte</p>
+                <p>Vous n'avez pas de compte ?</p>
                 <button>Créer un compte</button>
             </div>
         </div>
