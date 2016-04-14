@@ -22,8 +22,7 @@
                 avec deux turboréacteurs SNECMA-Turboméca Larzac<br/>
                 04-G5 et une puissance totale de 2 * 1350 Kgp.
             </p>
-            <img src="{{asset('icones/cadre_jouer.png')}}" alt="cadre_jouer" class="cadre_jouer">
-            <a href="">jouer</a>
+            <button class="btn-jouer">Jouer</button>
         </div>
     </div>
 @endsection

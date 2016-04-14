@@ -21,8 +21,7 @@
                 une puissance totale de 2 * 400 Kgp. Il comporte aussi<br/>
                 deux mitrailleuse, deux bombes et quatre roquettes.
             </p>
-            <img src="{{asset('icones/cadre_jouer.png')}}" alt="cadre_jouer" class="cadre_jouer">
-            <a href="">jouer</a>
+            <button class="btn-jouer">Jouer</button>
         </div>
     </div>
 @endsection

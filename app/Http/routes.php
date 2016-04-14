@@ -26,8 +26,8 @@ Route::get('/ouragan', function(){
     return view('/histoire/ouragan');
 });
 
-Route::get('/misteriv', function(){
-    return view('/histoire/misteriv');
+Route::get('/mistereiv', function(){
+    return view('/histoire/mistereiv');
 });
 
 Route::get('/magister', function(){
